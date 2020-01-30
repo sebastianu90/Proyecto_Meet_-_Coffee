@@ -23,6 +23,7 @@ body *{
   background: #a4452c;
   color: #ffffff;
   padding: 50px;
+  white-space: nowrap;
 }
 .hero-section{
   text-align: right;
@@ -41,7 +42,26 @@ section, footer {
 footer{
   padding: 50px;
 }
-
-.charla-speaker, .charla-texto {
-  display: inline-block;
+.charla-speaker, .charla-texto, .evento {
+display: inline-block;
+}
+.evento {
+  width: 30%;
+}
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+.charla-speaker{
+  width: 25%;
+  vertical-align: middle;
+}
+.charla-texto{
+  width: 72.5%;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  white-space: normal;
+}
+.imagenes-evento{
+  width: 75%;
 }
